@@ -1,7 +1,7 @@
 # Bill Pay
 Simple accounting based on Python, Sqlite, and Tkinter.
 
-This is a simple program designed to help me organize my recurring bills and replace a spreadsheet. There is no real attempt at being a full double-entry accounting system. It just allows me to track where my money comes from and where it goes and allows me to create simple reports.
+This is a simple program designed to help me organize my recurring bills and replace a spreadsheet. There is no real attempt at being a full double-entry accounting system. It just allows me to track where my money comes from and where it goes and allows me to create simple reports. This is developed on Debian flavored Linux and I have no need or intention to run it anywhere else. That having been said, it should work on any OS that has Python. This is based upon another repository of mine called Accounting. It's a fairly robust implemetation of forms for ``Tkinter`` and an abstract database for ``Sqlite3``. Every effort is made to reduce dependencies to only things that are shipped with Python in a default install. See at the end for dependencies. 
 
 ## Workflow
 When the system is started the default database file is opened from the location of the executable. The user must have write permission to the directory where it is located. For me, that is ``~/bin`` and since I really don't expect any to really find this of any use, that suits me fine. If it bothers you then submit a bug via GIT. :)
